@@ -1,0 +1,21 @@
+{
+  "name": "sill-and-soil-plant-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sill & Soil: a plant shop website template by Whelk Works (React + Vite).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
